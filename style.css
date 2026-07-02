@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #74ebd5,
+        #9face6
+    );
+}
+
+.card{
+    width: 500px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+#resultado{
+    margin-top: 20px;
+}
